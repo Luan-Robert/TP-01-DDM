@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">TP-01-DDM</string>
+
+    <string name="resultado_tensao">Tensão (V): %1$.2f V</string>
+    <string name="resultado_resistencia">Resistência (R): %1$.2f Ω</string>
+    <string name="resultado_corrente">Corrente (I): %1$.2f A</string>
+
+    <string name="erro_corrente_zero_para_resistencia">Erro: Corrente não pode ser zero para calcular Resistência.</string>
+    <string name="erro_resistencia_zero_para_corrente">Erro: Resistência não pode ser zero para calcular Corrente.</string>
+    <string name="erro_valores_insuficientes">Por favor, forneça pelo menos dois valores para calcular.</string>
+    <string name="erro_valores_excedentes">Por favor, deixe apenas um campo em branco para o cálculo.</string>
+    <string name="erro_logica_campos">Erro de lógica: Verifique os campos.</string>
+    <string name="erro_entrada_invalida_numerica">Entrada inválida. Use números (ex: 123 ou 12.34).</string>
 </resources>
